@@ -1,0 +1,148 @@
+
+<div class="container">
+  <ul class="nav nav-tabs tab">
+    <li class="nav-item">
+      <a class="nav-link active" data-toggle="tab" href="#book-flight" id="flight-tab">Book a Flight</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#flight-hotel" id="flightHotel-tab">Flight + Hotel</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#check-in" id="checkIn-tab">Check In</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#flight-status" id="flightStatus-tab">Flight Status</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#my-bookings" id="myBookings-tab">My Bookings</a>
+    </li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="book-flight" class="tab-pane fade show active">
+      <div class="booking-form">
+        <form>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="departure-city">Departure City</label>
+              <input type="text" class="form-control" id="departure-city">
+            </div>
+            <div class="form-group">
+              <label for="arrival-city">Arrival City</label>
+              <input type="text" class="form-control" id="arrival-city">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="departure-date">Departure Date</label>
+              <input type="date" class="form-control" id="departure-date">
+            </div>
+            <div class="form-group">
+              <label for="return-date">Return Date (if applicable)</label>
+              <input type="date" class="form-control" id="return-date" name="return-date">
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="passengers">Passengers</label>
+              <input type="number" class="form-control" id="passengers">
+            </div>
+            <div class="form-group">
+              <label for="class">Class</label>
+              <select id="class" class="form-control">
+                <option selected>Economy</option>
+                <option>Business</option>
+                <option>First</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="trip-type">Trip Type</label>
+              <select id="trip-type" class="form-control">
+                <option selected>Round Trip</option>
+                <option>One Way</option>
+              </select>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary btn-type">Book Now</button>
+        </form>
+      </div>
+    </div>
+    <div id="flight-hotel" class="tab-pane fade">
+      <div class="booking-form">
+        <form>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="destination-city">Destination City</label>
+              <input type="text" class="form-control" id="destination-city">
+            </div>
+            <div class="form-group">
+                <label for="rooms">Rooms/Guests</label>
+                <input type="number" class="form-control" id="rooms">
+              </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="check-out-date">Check-out</label>
+              <input type="date" class="form-control" id="check-out-date">
+            </div>
+            <div class="form-group">
+                <label for="check-in-date">Check-in</label>
+                <input type="date" class="form-control" id="check-in-date">
+              </div>
+          </div>
+          <button type="submit" class="btn btn-primary btn-type">Book Now</button>
+        </form>
+      </div>
+    </div>
+    <div id="check-in" class="tab-pane fade">
+      <div class="booking-form">
+        <form>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="booking-reference">Booking Reference</label>
+              <input type="text" class="form-control" id="booking-reference">
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary btn-type">Check In</button>
+        </form>
+      </div>
+    </div>
+    <div id="flight-status"   class="tab-pane fade">
+        <div class="booking-form">
+          <form>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="booking-reference">Booking Reference</label>
+                <input type="text" class="form-control" id="booking-reference">
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary btn-type">Check Status</button>
+          </form>
+        </div>
+      </div>
+      <div id="my-bookings" class="tab-pane fade">
+        <div class="booking-form">
+          <form>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" class="form-control" id="username">
+              </div>
+              <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password">
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary btn-type">Log In</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  

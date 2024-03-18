@@ -1,0 +1,251 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333; 
+}
+
+:root{
+    --blue: #5acbd9;
+    --pink: #ef97bf;
+    --dark-pink: #ed6fa8;
+    --salmon: #f47882;
+    --black: #000;
+    --gray: #ccc;
+    --cream: #f1f1f1;
+    --white: #fff;
+}
+
+.logo{
+    width: 170px;
+}
+/* Navbar Styles */
+.navbar-brand {
+    font-size: 1.5rem; 
+}
+
+.nav-link {
+    color: var(--blue);
+    font-size: 20px;
+}
+
+#navbarSupportedContent{
+    z-index: 10;
+}
+
+.search-icon {
+    cursor: pointer;
+    color: var(--black);
+  }
+
+  .search-icon:hover{
+    color: var(--black);
+  }
+
+  .icon{
+   color: var(--black);
+  }
+
+  .header{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(117,218,226,1) 100%);
+  }
+
+  .social-icons {
+    display: flex;
+    flex-direction: column;
+    margin-left: 270px;
+    margin-bottom: 30px;
+}
+
+.text{
+    margin-top: -60px;
+    margin-left: 500px;
+    font-size: 20px;
+    color: var(--black);
+}
+
+.button{
+border-radius: 50px;
+width: 20%;
+margin-left: 110px;
+}
+.booking-form {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  .form-group {
+    margin-bottom: 20px;
+  }
+  .tab-content {
+    margin-top: 20px;
+  }
+  .form-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  .form-row .form-group {
+    width: 48%;
+  }
+
+  /* Style the tab buttons */
+  .tab {
+    overflow: hidden;
+    border: 1px solid var(--gray);
+    background-color: var(--cream);
+  }
+
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: background-color 0.3s;
+  }
+
+  .tab button:hover {
+    background-color: var(--dark-pink);
+  }
+
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 20px;
+    border: 1px solid var(--gray);
+    border-top: none;
+  }
+
+  /* Show the selected tab */
+  .tabcontent.show {
+    display: block;
+  }
+
+  .form-label {
+    font-size: 11px;
+  }
+
+  #oneWay-tab, #roundtrip-tab {
+    font-size: 15px;
+  }
+
+  .btn-type {
+    background-color: var(--dark-pink);
+    border: none;
+  }
+
+  .btn-type:hover {
+    background-color: var(--blue);
+  }
+
+  #flightStatus-tab, #myBookings-tab, #flight-tab, #flightHotel-tab, #checkIn-tab {
+    color: var(--pink);
+  }
+
+  #flightStatus-tab:hover, #myBookings-tab:hover, #flight-tab:hover, #flightHotel-tab:hover, #checkIn-tab:hover {
+    color: var(--blue);
+  }
+.card-img{
+    width: 100%;
+}
+
+.btn-travel{
+    background-color: var(--blue);
+}
+
+.btn-travel:hover{
+    background-color: var(--blue);
+}
+
+
+.options{
+    width: 130px;
+}
+
+.addon-icon{
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: var(--salmon);
+}
+
+.bg-salmon{
+background-color: var(--blue);
+}
+
+a{
+    text-decoration: none;
+    color: var(--black);
+}
+
+.travel-info{
+    color: var(--white);
+}
+
+hr{
+    color: var(--salmon);
+}
+
+.text-travel{
+    margin-top: -580px;
+    margin-left: -20px;
+    font-size: 40px;
+    color: var(--salmon);
+}
+
+.text-tracker{
+    margin-top: -380px;
+    margin-left: -372px;
+    font-size: 40px;
+    color: var(--salmon);
+}
+
+.tracker-img{
+    width: 40%;
+   margin-top: 178px;
+}
+
+
+.text-about{
+    margin-top: -796px;
+    margin-left: -110px;
+    font-size: 40px;
+    color: var(--salmon);
+}
+
+.about-img{
+    width: 100%;
+   margin-top: -360px;
+}
+
+.text-contact{
+    margin-top: -246px;
+    margin-left: 666px;
+    font-size: 40px;
+    color: var(--salmon);
+}
+
+.btn-contact{
+    background-color: var(--salmon);
+}
+
+/* form submit style*/
+
+ul{
+list-style: none;
+
+}
+
+.flight-status {
+  background-color: #F9F9F9;
+  padding: 20px;
+}
+.search-form {
+  padding: 20px;
+}
+
+
+
